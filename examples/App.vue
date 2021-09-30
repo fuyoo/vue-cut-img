@@ -3,7 +3,7 @@
   <br>
   <button @click="cut">裁剪</button>
   <div class="modal" v-if="show">
-    <cut-image 
+    <vue-cut-img 
     :title="`title`" 
     :close-show="true" 
     :choose-btn="`choose img`"
@@ -11,7 +11,7 @@
     @close="show = !show" 
     :blob="true" 
     @error="errorFn"
-    @data="getData"></cut-image>
+    @data="getData"></vue-cut-img>
   </div> 
 </template>
 

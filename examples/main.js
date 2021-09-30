@@ -1,4 +1,4 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import CutImage from '../packages/CutImage'
-createApp(App).use(CutImage).mount('#app')
+import VueCutImg from '../packages/CutImage'
+createApp(App).use(VueCutImg).mount('#app')
