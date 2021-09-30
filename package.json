@@ -1,11 +1,16 @@
 {
     "name": "@fuyoo/vue-cut-img",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "private": false,
     "main": "lib/vue-cut-img.umd.min.js",
     "author": "fuyoo",
     "description": "a vue component, easy to cut image, support vue2.x and vue3.x",
-    "keywords": ["vue2 img cut", "vue3 img cut", "图片裁剪", "cut image"],
+    "keywords": [
+        "vue2 img cut",
+        "vue3 img cut",
+        "图片裁剪",
+        "cut image"
+    ],
     "license": "MIT",
     "scripts": {
         "serve": "vue-cli-service serve",
