@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/fuyoo/real_ip.git"
+        "url": "https://github.com/fuyoo/vue-cut-img.git"
     },
     "dependencies": {
         "core-js": "^3.6.5",
