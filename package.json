@@ -1,6 +1,6 @@
 {
     "name": "@fuyoo/vue-cut-img",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "private": false,
     "main": "lib/vue-cut-img.umd.min.js",
     "author": "fuyoo",
