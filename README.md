@@ -16,8 +16,9 @@
     + **vue2 使用**
     + ```js
         import Vue from 'vue'
-        import VueCutImage from '@fuyoo/vue-cut-img'
-        Vue.use(VueCutImage)
+        import VueCutImg from '@fuyoo/vue-cut-img'
+        import "@fuyoo/vue-cut-img/lib/vue-cut-img.css"
+        Vue.use(VueCutImg)
         ```
 
     + **vue3 使用**
@@ -25,8 +26,9 @@
         import { createApp } from 'vue'
         import { createApp } from 'vue'
         import App from './App.vue'
-        import VueCutImage from '@fuyoo/vue-cut-img'
-        createApp(App).use(VueCutImage).mount('#app')
+        import VueCutImg from '@fuyoo/vue-cut-img'
+        import "@fuyoo/vue-cut-img/lib/vue-cut-img.css"
+        createApp(App).use(VueCutImg).mount('#app')
         ```
 
 ## 属性
@@ -52,21 +54,21 @@
 ```html
 <template>
     <div>
-        <vue-cut-image 
+        <vue-cut-img 
         :title="`title`" 
         :close-show="true" 
         :choose-btn="`choose img`"
         :cut-btn="`cut img`"
         @close="closeFn" 
-        :blob="true" @data="getDataFn"></vue-cut-image>
+        :blob="true" @data="getDataFn"></vue-cut-img>
     </div> 
 </template>    
 
 <script>
-import VueCutImage from '@fuyoo/vue-cut-image'
+import VueCutImg from '@fuyoo/vue-cut-img'
 export default {
     name:"demo",
-    components:{VueCutImage},
+    components:{VueCutImg},
     data(){
         return {isBlob:false}
     }
