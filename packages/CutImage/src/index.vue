@@ -22,7 +22,7 @@
 <script>
 
 export default {
-  name: 'VueCutImage',
+  name: 'VueCutImg',
   props: {
     blob: {
       type: Boolean,
